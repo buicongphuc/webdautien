@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 400px;
+    height: auto;
+    margin: 30px auto;
+    padding: 30px 40px;
+    border: 1px solid blue;
+}
+td{
+    font-size: 20px;
+}
+.container form input{
+    padding: 15px 30px;
+    font-size: 18px;
+}
+.container h1{
+    position: relative;
+    margin-bottom: 30px;
+}
+.container h1::after{
+    content: "";
+    position: absolute;
+    top: 130%;
+    left: 0;
+    width: 240px;
+    height: 5px;
+    background-color: cyan;
+}
+.btn-dangnhap{
+    padding: 5px 20px;
+    background-color:indigo;
+    color: white;
+}
+.container form table td{
+    position: relative;
+}
+.container form table td i{
+    position: absolute;
+    top: 18px;
+    left: 7px;
+}
